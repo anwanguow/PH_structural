@@ -1,0 +1,123 @@
+#######################
+# P A R T I T I O N S #
+#######################
+
+#variable RN uloop 100 # Allows multiple consecutive simulations
+
+#############################
+# P R E L I M I N A R I E S #
+#############################
+
+variable temp equal (1.0)    # temperature to simulate at
+variable rng equal (106699)   # random number seed
+
+variable N equal (100)        # How often to dump thermodynamic data
+
+#######################
+# S I M U L A T I O N #
+#######################
+
+variable rand equal (${rng}) # (${rng}+${RN})
+
+log nuc.log
+
+units lj                  # Use reduced LJ style units
+atom_style atomic         # Uncharged point particles
+atom_modify map hash      # Needed for indexing of clusters etc 
+                          # Used to be able to find where atoms are in relation to each other.
+
+lattice fcc 1.0 spacing 1 1 1 
+region box block 0 6 0 6 0 6 units lattice
+create_box 2 box
+create_atoms 1 box  
+set type 1 type/fraction 2 0.2 78393
+mass 1 1.0
+mass 2 1.0
+pair_style lj/cut  3.5
+pair_modify tail  yes
+pair_coeff 1  1  1.0  1.0   # Intearaction between 1 and 1 set with epsilon = 1 and sigma = 1
+pair_coeff 1  2  1.5  0.8
+pair_coeff 2  2  0.5  0.88
+
+write_data data.0
+
+
+#############################
+#   M E L T   S Y S T E M   #
+#############################
+
+velocity all create 2.4 4344764 mom yes dist gaussian # Assign velocities
+                                                    # Temperature 2.4, random number seed, zero linear momentum
+                                                                                # Gaussian distribution
+
+timestep 0.002   # simulation timestep
+thermo 100       # output thermodynamic data every 100 steps
+
+# Define a fix  in this case with index 1 applied to all
+# particles in the simulation. This fix is for simulations
+# in the anisotropic NPT ensemble. Note that we use the MTK
+# correction.
+fix 1 all npt temp 2.4 2.4 0.1 iso 5.68 5.68 0.5 mtk yes tchain 5 pchain 5 # Use NPT ensemble
+                                                                         # Set temperature and pressure and damping
+                                                                         # Numbers of thermostats in chain and in barostat
+run 10000          # run for 10000 steps
+
+# Equilibrate just above the melting temperature to avoid step fn in T
+
+fix 1 all npt temp 1.25 1.25 0.1 iso 5.68 5.68 0.5 mtk yes tchain 5 pchain 5
+run 2000
+
+#############################
+# L I N E A R  Q U E N C H  #
+#############################
+
+# Define solid atoms. This closely follows ten Wolde  Ruiz-Montero and Frenkel  Faraday Discuss  1996  104  93-110
+# Compute components of the per-atom q6 vector
+compute q6 all orientorder/atom degrees 1 6 components 6 nnn NULL cutoff 1.3 # compute the Q6 parameter.
+                                                                             # Use all neighbours within 1.3 unit cell.
+
+# get number of connections
+compute coord_number all coord/atom orientorder q6 0.5
+
+# An atom is solid if it has 8 or more connections (of a possible 14)
+variable is_solid atom c_coord_number>=8
+group solid dynamic all var is_solid    # Must be dynamic to update
+
+# do clustering
+compute cluster solid cluster/atom 1.3 # Create a cluster where all atoms within are solid and max 1.3 units from another member
+
+# define chunks one chunk per cluster
+compute clus_chunks solid chunk/atom c_cluster nchunk every compress yes  # Says which atoms are in which chunk
+
+# count the size of each chunk
+compute size_chunks solid property/chunk clus_chunks count
+
+
+# Find the maximum entry in the vector of chunk sizes
+variable max_n equal max(c_size_chunks)
+
+
+# Thermo style which includes this variable
+# thermo_style custom step temp pe vol v_max_n
+
+thermo ${N}  # Print the thermo information every 100 steps
+
+# Reset the npt fix at a lower temperature (below freezing)
+fix 1  all npt temp  ${temp} ${temp}  0.1  iso  5.68  5.68  0.5  mtk yes tchain  5  pchain  5
+
+dump dmp2 all dcd ${N} traj.dcd
+
+compute msd all msd com yes
+variable twopoint equal c_msd[4]/6/(step*dt+1.0e-6)
+fix 9 all vector 10 c_msd[4]
+variable fit equal slope(f_9)/6/(10*dt)
+thermo_style custom step temp pe c_msd[4] v_twopoint v_fit v_max_n
+
+fix 1 all npt temp 1.25 ${temp} 0.1 iso 5.68 5.68 0.5 mtk yes tchain 5 pchain 5
+run 100000 # 5000000  # Run for this many steps
+
+#clear
+#
+#next RN
+#
+#jump SELF
