@@ -1,0 +1,24 @@
+LAMMPS (29 Sep 2021 - Update 2)
+#######################
+# P A R T I T I O N S #
+#######################
+
+#variable RN uloop 100 # Allows multiple consecutive simulations
+
+#############################
+# P R E L I M I N A R I E S #
+#############################
+
+variable temp equal (0.83)    # temperature to simulate at
+variable rng equal (462431)   # random number seed
+
+variable N equal (100)        # How often to dump thermodynamic data
+
+#######################
+# S I M U L A T I O N #
+#######################
+
+variable rand equal (${rng}) # (${rng}+${RN})
+variable rand equal (462431) 
+
+log nuc.log
