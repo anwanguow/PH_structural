@@ -97,7 +97,7 @@ The trajectories of all LJ systems, along with the distance matrices of each fra
 
 The directories and their names correspond to the respective contents. Within each subdirectory of data, there are folders or files with names like 'Set_1' and 'Set_2', representing data extracted from Group 1 (training set) and Group 2 (test set), respectively. Specifically, the LAMMPS scripts for MD simulations and the bash files to run them are located in the subdirectories of 'Traj'. The 'in.LAMMPS' file is the execution script, 'data.0' is the topology file generated after running the script, 'traj.dcd' is the trajectory file saved under PBC (for structural aspects), 'traj_unwrap.dcd' is the trajectory file saved under the unwrapped system (for dynamical aspects), and 'nuc.log' is the log file. 
 
-Note that the simulations for the KA system are stored in the 'Softness/KA\_system' directory, which has a similar directory structure.
+Note that the simulations for the KA system (Group 3) are stored in the 'Softness/KA\_system' directory, which has a similar directory structure.
 
 
 
