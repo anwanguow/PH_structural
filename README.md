@@ -3,7 +3,7 @@ Persistent Homology for Structural Characterization in Disordered Systems
 
 This is the code for paper Persistent Homology for Structural Characterization in Disordered Systems, containing the calculated results corresponding to the figures in the paper and the Python code to show them.
 
-The related article is available at https://arxiv.org/abs/2411.14390.
+The related article (preprint) is available at https://arxiv.org/abs/2411.14390.
 
 Figures
 -----------------
