@@ -1,7 +1,7 @@
 Persistent Homology for Structural Characterization in Disordered Systems
 ==============
 
-This is the code for article Persistent Homology for Structural Characterization in Disordered Systems, containing the implementation of all algorithms, the calculated results, and the Python code for visualizing all figures.
+This repository contains the implementation of all algorithms, computed results, and Python scripts for visualizing all figures from the article "Persistent Homology for Structural Characterization in Disordered Systems".
 
 The related article (preprint) is available at https://arxiv.org/abs/2411.14390.
 
