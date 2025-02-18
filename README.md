@@ -172,3 +172,5 @@ Some Extra Data
 -----------------
 
 The "Extra" directory stores additional code or data, including content for experiments requested by reviewers or supplementary test code added later.
+
+Besides, the "Extra_PCA_Task_1" directory contains training session records exported from Matlab's Classification Learner for Task 1. These sessions record the training process with different numbers of predictors (ranging from 1 to 7) obtained through PCA on the feature matrix.
