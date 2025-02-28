@@ -178,7 +178,15 @@ Some Extra Data
 
 The "Extra" directory stores additional code or data, including content for experiments requested by reviewers or supplementary test code added later.
 
-Besides, the "Extra/Extra_PCA_Task_1" directory contains training session records exported from Matlab's Classification Learner for Task 1. These sessions record the training process with different numbers of predictors (ranging from 1 to 7) obtained through PCA on the feature matrix.
+Besides, the "Extra/Extra_PCA_Task_1" directory contains training session records exported from Matlab's Classification Learner for Task 1. These sessions record the training process with different numbers of predictors (ranging from 1 to 7) obtained through PCA on the feature matrix. Please read "README.pdf" in the "Extra/Extra\_PCA\_Task\_1" directory to know how to open the session files saved by MATLAB Classification Learner.
+
+
+
+How to open the session file saved by MATLAB Classification Learner
+-----------------
+
+See "Extra/Extra\_PCA_Task\_1/README.pdf". The method for opening all session files is generally the same.
+
 
 
 Some Extra Figures
@@ -187,4 +195,5 @@ Some Extra Figures
 If we merge the "crystal" and "amorphous" categories in Fig. 5b) into a single "solid" category, we can obtain the following figure. The script used to generate this figure is "Statistics/system/SI\_binary.py."
 
 <img src="./fig/extra_1.png" alt="all_traj" title="si_binary" width="300">
+
 
