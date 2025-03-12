@@ -9,6 +9,8 @@ Sample Status Checker
 -----------------
 We are developing a feature that allows readers to intuitively understand the process of mapping particle samples and global system samples into vectors and real numbers.
 
+See directory 'Sample_Status_Checker'
+
 Awaiting...
 
 
