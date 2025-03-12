@@ -11,6 +11,10 @@ We are developing a feature that allows readers to intuitively understand the pr
 
 See directory 'Sample_Status_Checker'
 
+Note that we are re-organizing this repo and adding new functions.
+
+Anything will be done before 15 Mar 2025.
+
 Awaiting...
 
 
