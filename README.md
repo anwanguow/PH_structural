@@ -205,5 +205,5 @@ For the non-machine learning task, it essentially involves establishing a mappin
 
 N.B., for the LJ system, it is divided into two groups, each corresponding to 10 trajectories. Each trajectory records 1001 frames, with timestamps ranging from 0 to 1000. The system consists of 864 particles, numbered from 0 to 863. These parameters are declared at the head of the corresponding code, as detailed in the comments.
 
-This part of the code is solely intended to demonstrate the computational logic and intuitively present the demonstration. To save computation time and facilitate demonstration, some parameters have been modified. For reproducing the results in the article, please use the corresponding code as specified.
+This part of the code is solely intended to demonstrate the computational logic and intuitively present the demonstration. To save time and facilitate demonstration, some parameters have been modified. For reproducing the results in the article, please use the corresponding code as specified.
 
