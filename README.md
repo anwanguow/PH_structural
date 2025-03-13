@@ -105,7 +105,8 @@ For the machine learning task, it essentially involves fitting a composite mappi
 
 For the non-machine learning task, it essentially involves establishing a mapping from the persistent homology results of particles or the entire system to the range $[0, +\infty)$, known as the Separation Index (SI). The SI for particles (or the local environment of particles) is demonstrated in file `SI_particle.py`, and the SI for the entire system is demonstrated in file `SI_system.py`. The results are directly displayed on the console.
 
-N.B., for the LJ system, it is divided into two groups, each corresponding to 10 trajectories. Each trajectory records 1001 frames, with timestamps ranging from 0 to 1000. The system consists of 864 particles, numbered from 0 to 863. These parameters are declared at the head of the corresponding code, as detailed in the comments.
+N.B., for the LJ system, it is divided into two groups, each corresponding to 10 trajectories. Each trajectory records 1001 frames, with timestamps ranging from 0 to 1000. The system consists of 864 particles, numbered from 0 to 863. These parameters are declared at the head of the corresponding code, as detailed in the comments. This part of the code is solely intended to demonstrate the computational logic and intuitively present the demonstration. To save computation time and facilitate demonstration, some parameters have been modified. For reproducing the results in the article, please use the corresponding code as specified.
+
 
 
 MD Simulation
