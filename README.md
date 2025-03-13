@@ -5,7 +5,7 @@ This repository contains the implementation of all algorithms, computed results,
 
 The related article (preprint) is available at https://arxiv.org/abs/2411.14390.
 
-Sample Checker: Done
+Sample Checker
 -----------------
 
 To help readers intuitively understand how particles and the entire system are represented as fingerprints (PH vectors) and a single real number (Separation Index), we have specifically written demonstration code. All codes are located in "Sample_Checker" directory.
@@ -19,12 +19,6 @@ For the machine learning task, it essentially involves fitting a composite mappi
 For the non-machine learning task, it essentially involves establishing a mapping from the persistent homology results of particles or the entire system to the range $[0, +\infty)$, known as the Separation Index (SI). The SI for particles (or the local environment of particles) is demonstrated in file `SI_particle.py`, and the SI for the entire system is demonstrated in file `SI_system.py`. The results are directly displayed on the console.
 
 
-
-
-
-
-
-Details awating
 
 Figures
 -----------------
