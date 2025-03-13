@@ -6,10 +6,9 @@ This repository contains the implementation of all algorithms, computed results,
 The related article (preprint) is available at https://arxiv.org/abs/2411.14390.
 
 Particle Checker: Done
+-----------------
 All codes are uploaded to "Sample_Checker" directory
 Details awating
------------------
-
 
 Figures
 -----------------
