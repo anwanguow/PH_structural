@@ -8,7 +8,8 @@ The related article (preprint) is available at https://arxiv.org/abs/2411.14390.
 Particle Checker: Done
 -----------------
 All codes are uploaded to "Sample_Checker" directory
-Details awating
+
+A detailed introduction will be provided later.
 
 Figures
 -----------------
