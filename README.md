@@ -8,9 +8,7 @@ The related article (preprint) is available at https://arxiv.org/abs/2411.14390.
 Sample Checker
 -----------------
 
-To help readers intuitively understand how particles and the entire system are represented as fingerprints (PH vectors) and a single real number (Separation Index), we have specifically written these demonstration codes. All codes are located in "Sample_Checker" directory.
-
-This article investigates two types of samples: particle samples, with a state set of {soft, hard}, representing the tendency for particle rearrangement, and global system samples, with a state set of {crystal, amorphous, liquid}, characterizing the overall phase structure of the system.
+To help readers intuitively understand how particles and the entire system are represented as fingerprints (PH vectors) and a single real number (Separation Index), we have specifically written these demonstration codes. All codes are located in "Sample_Checker" directory. This article investigates two types of samples: particle samples with a state set of {soft, hard}, and global system samples with a state set of {crystal, amorphous, liquid}.
 
 For the machine learning task, it essentially involves fitting a composite mapping $y = f(g(x))$, where $y$ represents the state set, $f$ is the support vector machine, and $g$ refers to the fingerprint, specifically the PH vector for both the particle and the entire system. The calculation method for the particle's PH vector is demonstrated in file `Sample_Checker/PI_vec_particle.py`, with the resulting column vector saved in `Sample_Checker/PI_vec_particle.txt` and displayed on the console. The calculation method for the system's PH vector is demonstrated in file `Sample_Checker/PI_vec_system.py`, with the resulting column vector saved in `Sample_Checker/PI_vec_system.txt` and displayed on the console.
 
