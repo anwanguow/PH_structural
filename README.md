@@ -5,6 +5,8 @@ This repository contains the implementation of all algorithms, computed results,
 
 The related article (preprint) is available at https://arxiv.org/abs/2411.14390.
 
+N.B., to help readers intuitively understand how particles and the entire system are mapped into fingerprints (PH vectors) and a single real number (Separation Index), we have specifically written demonstration codes, as detailed in the tail of this page.
+
 Figures
 -----------------
 
