@@ -7,7 +7,8 @@ The related article (preprint) is available at https://arxiv.org/abs/2411.14390.
 
 Sample Checker: Done
 -----------------
-All codes are uploaded to "Sample_Checker" directory
+All codes are uploaded to "Sample_Checker" directory.
+
 Details awating
 
 Figures
