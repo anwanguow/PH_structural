@@ -5,20 +5,6 @@ This repository contains the implementation of all algorithms, computed results,
 
 The related article (preprint) is available at https://arxiv.org/abs/2411.14390.
 
-Sample Status Checker
------------------
-We are developing a feature that allows readers to intuitively understand the process of mapping particle samples and global system samples into vectors and real numbers.
-
-See directory 'Sample_Status_Checker'
-
-Note that we are re-organizing this repo and adding new functions.
-
-I am too busy...
-
-Anything will be done before 15 Mar 2025.
-
-Awaiting...
-
 
 Figures
 -----------------
