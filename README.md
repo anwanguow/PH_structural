@@ -7,7 +7,7 @@ The related article (preprint) is available at https://arxiv.org/abs/2411.14390.
 
 N.B., to help readers intuitively understand how particles and the entire system are mapped into fingerprints (PH vectors) and a single real number (Separation Index), we have specifically written demonstration codes, as detailed in the tail of this page (titled "Sample Checker").
 
-If you have any questions, please email me directly. However, please note that my reply may take up to two days, because I'm too busy these months.
+If you have any questions, please email me directly. However, my reply may take up to two days, because I'm too busy these months.
 
 Figures
 -----------------
