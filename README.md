@@ -10,15 +10,13 @@ Sample Checker
 
 To help readers intuitively understand how particles and the entire system are represented as fingerprints (PH vectors) and a single real number (Separation Index), we have specifically written demonstration code. All codes are located in "Sample_Checker" directory.
 
-
 This article investigates two types of samples: particle samples, with a state set of {soft, hard}, representing the tendency for particle rearrangement, and global system samples, with a state set of {crystal, amorphous, liquid}, characterizing the overall phase structure of the system.
-
 
 For the machine learning task, it essentially involves fitting a composite mapping $y = f(g(x))$, where $y$ represents the state set, $f$ is the support vector machine, and $g$ refers to the fingerprint, specifically the PH vector for both the particle and the entire system. The calculation method for the particle's PH vector is demonstrated in file `Sample_Checker/PI_vec_particle.py`, with the resulting column vector saved in `Sample_Checker/PI_vec_particle.txt` and displayed on the console. The calculation method for the system's PH vector is demonstrated in file `Sample_Checker/PI_vec_system.py`, with the resulting column vector saved in `Sample_Checker/PI_vec_system.txt` and displayed on the console.
 
 For the non-machine learning task, it essentially involves establishing a mapping from the persistent homology results of particles or the entire system to the range $[0, +\infty)$, known as the Separation Index (SI). The SI for particles (or the local environment of particles) is demonstrated in file `SI_particle.py`, and the SI for the entire system is demonstrated in file `SI_system.py`. The results are directly displayed on the console.
 
-
+N.B., for the LJ system, it is divided into two groups, each corresponding to 10 trajectories. Each trajectory records 1001 frames, with timestamps ranging from 0 to 1000. The system consists of 864 particles, numbered from 0 to 863. These parameters are declared at the beginning of the corresponding code, as detailed in the comments.
 
 Figures
 -----------------
