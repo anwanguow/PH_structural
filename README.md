@@ -9,6 +9,17 @@ Sample Checker: Done
 -----------------
 All codes are uploaded to "Sample_Checker" directory.
 
+This article investigates two types of samples: particle samples, with a state set of {soft, hard}, representing the tendency for particle rearrangement, and global system samples, with a state set of {crystal, amorphous, liquid}, characterizing the overall phase structure of the system.
+
+
+
+
+
+
+
+
+
+
 Details awating
 
 Figures
