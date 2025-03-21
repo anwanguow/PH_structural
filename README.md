@@ -3,7 +3,7 @@ Persistent Homology for Structural Characterization in Disordered Systems
 
 This repository contains the implementation of all algorithms, computed results, and Python scripts for visualizing all figures from the article "Persistent Homology for Structural Characterization in Disordered Systems".
 
-The related article (https://arxiv.org/abs/2411.14390) is accepted by Physical Review E (PRE).
+The related article (https://arxiv.org/abs/2411.14390) is accepted by Physical Review E (PRE), see https://journals.aps.org/pre/accepted/38075O23L4d1904d361a1fc060eb72a0fa2b1d54f.
 
 N.B., to help readers intuitively understand how particles and the entire system are mapped into fingerprints (PH vectors) and a single real number (Separation Index), we have specifically written demonstration codes, as detailed in the tail of this page (titled "Sample Checker").
 
