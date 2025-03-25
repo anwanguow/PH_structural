@@ -174,7 +174,7 @@ Because GitHub enforces a 100MB file size limit, some MATLAB Classification Lear
 Extra experiments requested by Referees of PRE
 -----------------
 
-The "Extra" directory stores additional code or data, including content for experiments requested by reviewers or supplementary test code added later.
+The "Extra" directory stores additional code or data, including content for experiments requested by Referees or supplementary test code added later.
 
 Besides, the "Extra/Extra_PCA_Task_1" directory contains training session records exported from Matlab's Classification Learner for Task 1. These sessions record the training process with different numbers of predictors (ranging from 1 to 7) obtained through PCA on the feature matrix. Please read "README.pdf" in the "Extra/Extra\_PCA\_Task\_1" directory to know how to open the session files saved by MATLAB Classification Learner.
 
