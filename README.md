@@ -5,8 +5,6 @@ This repository contains the implementation of all algorithms, computed results,
 
 The related article (https://arxiv.org/abs/2411.14390) is accepted by Physical Review E (PRE), see https://journals.aps.org/pre/accepted/38075O23L4d1904d361a1fc060eb72a0fa2b1d54f.
 
-N.B., to help readers intuitively understand how particles and the entire system are mapped into fingerprints (PH vectors) and a single real number (Separation Index), we have specifically written demonstration codes, as detailed in the tail of this page (titled "Sample Checker").
-
 Figures
 -----------------
 
@@ -173,7 +171,7 @@ For the global system, PH calculations are conducted using the 'generate_PH.py' 
 Because GitHub enforces a 100MB file size limit, some MATLAB Classification Learner sessions have been split into multiple 7z archive files. These files must be extracted before use.
 
 
-Extra Experiments required by Referees of PRE
+Extra experiments required by Referees of PRE
 -----------------
 
 The "Extra" directory stores additional code or data, including content for experiments requested by reviewers or supplementary test code added later.
