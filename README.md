@@ -171,7 +171,7 @@ For the global system, PH calculations are conducted using the 'generate_PH.py' 
 Because GitHub enforces a 100MB file size limit, some MATLAB Classification Learner sessions have been split into multiple 7z archive files. These files must be extracted before use.
 
 
-Extra experiments required by Referees of PRE
+Extra experiments requested by Referees of PRE
 -----------------
 
 The "Extra" directory stores additional code or data, including content for experiments requested by reviewers or supplementary test code added later.
