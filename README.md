@@ -5,6 +5,11 @@ This repository contains the implementation of all algorithms, computed results,
 
 The related article (https://arxiv.org/abs/2411.14390) is accepted by Physical Review E (PRE), see https://journals.aps.org/pre/accepted/38075O23L4d1904d361a1fc060eb72a0fa2b1d54f.
 
+Contact
+-----------------
+An Wang: amturing@outlook.com or An.Wang@warwick.ac.uk
+Li Zou: L.Zou@tudelft.nl
+
 Figures
 -----------------
 
