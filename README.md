@@ -5,12 +5,6 @@ This repository contains the implementation of all algorithms, computed results,
 
 The related article (https://arxiv.org/abs/2411.14390) is accepted by Physical Review E (PRE), see https://journals.aps.org/pre/accepted/38075O23L4d1904d361a1fc060eb72a0fa2b1d54f.
 
-Contact
------------------
-An Wang: An.Wang@warwick.ac.uk
-
-Li Zou: L.Zou@tudelft.nl
-
 Figures
 -----------------
 
@@ -213,3 +207,9 @@ N.B., for the LJ system, it is divided into two groups, each corresponding to 10
 
 This part of the code is solely intended to demonstrate the computational logic and intuitively present the demonstration. To save time and facilitate demonstration, some parameters have been modified. For reproducing the results in the article, please use the corresponding code as specified.
 
+
+Contact
+-----------------
+An Wang: An.Wang@warwick.ac.uk
+
+Li Zou: L.Zou@tudelft.nl
