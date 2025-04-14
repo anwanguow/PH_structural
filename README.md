@@ -213,5 +213,3 @@ This part of the code is solely intended to demonstrate the computational logic 
 Contact
 -----------------
 An Wang: An.Wang@warwick.ac.uk
-
-Li Zou: L.Zou@tudelft.nl
