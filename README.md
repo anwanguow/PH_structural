@@ -212,4 +212,4 @@ This part of the code is solely intended to demonstrate the computational logic 
 
 Contact
 -----------------
-An Wang: An.Wang@warwick.ac.uk
+An Wang: An.Wang[AT]warwick.ac.uk or amturing[at]outlook.com 
