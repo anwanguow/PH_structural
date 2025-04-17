@@ -207,6 +207,9 @@ N.B., for the LJ system, it is divided into two groups, each corresponding to 10
 
 This part of the code is solely intended to demonstrate the computational logic and intuitively present the demonstration. To save time and facilitate demonstration, some parameters have been modified. For reproducing the results in the article, please use the corresponding code as specified.
 
+arXiv Edition
+-----------------
+The arXiv preprint edition is available at https://arxiv.org/abs/2411.14390.
 
 Contact
 -----------------
