@@ -5,8 +5,6 @@ This repository contains the implementation of all algorithms, computed results,
 
 The related article has been officially published in Physical Review E (PRE). The publication is accessible at: https://journals.aps.org/pre/abstract/10.1103/PhysRevE.111.045306.
 
-This paper is currently under the publication process. The present version is a preprint and is for reference only. All errors will be corrected in the final published version, which will be updated on arXiv accordingly.
-
 Figures
 -----------------
 
