@@ -3,7 +3,7 @@ Persistent Homology for Structural Characterization in Disordered Systems
 
 This repository contains the implementation of all algorithms, computed results, and Python scripts for visualizing all figures from the article "Persistent Homology for Structural Characterization in Disordered Systems".
 
-The related article has been officially published in Physical Review E (PRE). The publication is accessible at: https://journals.aps.org/pre/abstract/10.1103/PhysRevE.111.045306.
+The related article has been published in Physical Review E (PRE), where it is accessible at https://journals.aps.org/pre/abstract/10.1103/PhysRevE.111.045306.
 
 Figures
 -----------------
