@@ -5,6 +5,21 @@ This repository contains the implementation of all algorithms, computed results,
 
 The related article has been published in Physical Review E (PRE), where it is accessible at https://journals.aps.org/pre/abstract/10.1103/PhysRevE.111.045306.
 
+Reference
+-----------------
+```bibtex
+@article{wang2025graph,
+  title={Graph theory based approach to identify phase transitions in condensed matter},
+  author={Wang, An and Sosso, Gabriele C},
+  journal={Physical Review B},
+  volume={111},
+  number={5},
+  pages={054116},
+  year={2025},
+  publisher={APS}
+}
+```
+
 Figures
 -----------------
 
