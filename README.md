@@ -8,13 +8,13 @@ The related article has been published in Physical Review E (PRE), where it is a
 Reference
 -----------------
 ```bibtex
-@article{wang2025graph,
-  title={Graph theory based approach to identify phase transitions in condensed matter},
-  author={Wang, An and Sosso, Gabriele C},
-  journal={Physical Review B},
+@article{wang2025persistent,
+  title={Persistent homology for structural characterization in disordered systems},
+  author={Wang, An and Zou, Li},
+  journal={Physical Review E},
   volume={111},
-  number={5},
-  pages={054116},
+  number={4},
+  pages={045306},
   year={2025},
   publisher={APS}
 }
