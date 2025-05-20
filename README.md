@@ -5,21 +5,6 @@ This repository contains the implementation of all algorithms, computed results,
 
 The related article has been published in Physical Review E (PRE), where it is accessible at https://journals.aps.org/pre/abstract/10.1103/PhysRevE.111.045306.
 
-Reference
------------------
-```bibtex
-@article{wang2025persistent,
-  title={Persistent homology for structural characterization in disordered systems},
-  author={Wang, An and Zou, Li},
-  journal={Physical Review E},
-  volume={111},
-  number={4},
-  pages={045306},
-  year={2025},
-  publisher={APS}
-}
-```
-
 Figures
 -----------------
 
@@ -229,3 +214,18 @@ The arXiv preprint edition is available at https://arxiv.org/abs/2411.14390.
 Contact
 -----------------
 An Wang: An.Wang@warwick.ac.uk or amturing@outlook.com 
+
+Reference
+-----------------
+```bibtex
+@article{wang2025persistent,
+  title={Persistent homology for structural characterization in disordered systems},
+  author={Wang, An and Zou, Li},
+  journal={Physical Review E},
+  volume={111},
+  number={4},
+  pages={045306},
+  year={2025},
+  publisher={APS}
+}
+```
