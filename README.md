@@ -213,7 +213,7 @@ The arXiv preprint edition is available at https://arxiv.org/abs/2411.14390.
 
 Contact
 -----------------
-An Wang: An.Wang@warwick.ac.uk or amturing@outlook.com 
+An Wang: amturing@outlook.com 
 
 Reference
 -----------------
