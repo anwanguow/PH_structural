@@ -218,14 +218,18 @@ An Wang: amturing@outlook.com
 Reference
 -----------------
 ```bibtex
-@article{wang2025persistent,
-  title={Persistent homology for structural characterization in disordered systems},
-  author={Wang, An and Zou, Li},
-  journal={Physical Review E},
-  volume={111},
-  number={4},
-  pages={045306},
-  year={2025},
-  publisher={APS}
+@article{PhysRevE.111.045306,
+  title = {Persistent homology for structural characterization in disordered systems},
+  author = {Wang, An and Zou, Li},
+  journal = {Phys. Rev. E},
+  volume = {111},
+  issue = {4},
+  pages = {045306},
+  numpages = {22},
+  year = {2025},
+  month = {Apr},
+  publisher = {American Physical Society},
+  doi = {10.1103/PhysRevE.111.045306},
+  url = {https://link.aps.org/doi/10.1103/PhysRevE.111.045306}
 }
 ```
