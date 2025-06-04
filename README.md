@@ -211,10 +211,6 @@ arXiv Edition
 -----------------
 The arXiv preprint edition is available at https://arxiv.org/abs/2411.14390.
 
-Contact
------------------
-An Wang: amturing@outlook.com
-
 Reference
 -----------------
 ```bibtex
@@ -233,3 +229,7 @@ Reference
   url = {https://link.aps.org/doi/10.1103/PhysRevE.111.045306}
 }
 ```
+
+Contact
+-----------------
+An Wang: amturing@outlook.com
