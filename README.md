@@ -219,7 +219,7 @@ According to the standard definition in persistent homology, at $\epsilon = 0$, 
 
 Accordingly, the statement in the manuscript should be revised as follow: “$H_0$ topological features are born at $\epsilon=0$ with each point forming a component, and die when two components merge as $\epsilon$ increases.” This correction would more faithfully reflect the standard definition of $H_0$ in persistent homology.
 
-This is solely a typographical error in the Methods section. The implementation of the computational code is correct, and this typo has no impact on the conclusions or the scientific validity of the article. In fact, we employed the Ripser package to perform the computation. This clarification is provided for completeness.
+This is solely a typographical error. In fact, we employed the Ripser package to perform the computation. The implementation of the computational code is correct, and this typo has no impact on the conclusions or the scientific validity of the article. This clarification is provided for completeness.
 
 
 Reference
