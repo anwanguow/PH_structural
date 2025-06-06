@@ -211,6 +211,17 @@ arXiv Edition
 -----------------
 The arXiv preprint edition is available at https://arxiv.org/abs/2411.14390.
 
+Erratum
+-----------------
+There is a minor typo in the left column below Fig.1 on page 4, where it is stated: “For example, a new connected component (H0) is born when points first merge as ϵ increases.” In fact, this is not the condition for the “birth” of an $H_0$ topological feature, but rather for its “death”. 
+
+According to the standard definition in persistent homology, at $\epsilon = 0$, each point in the point cloud forms an individual connected component ($H_0$ topological feature), so all $H_0$ features birth occur at ϵ = 0. As $\epsilon$ increases, when two points are first connected by an edge, their respective connected components merge, which corresponds to the “death” of a $H_0$ topological feature. When $\epsilon$ is sufficiently large, all points are connected into a single global component, which never dies. This would more accurately reflect the standard definition of $H_0$ in persistent homology.
+
+Accordingly, the statement in the manuscript should be revised as follow: “$H_0$ topological features are born at $\epsilon=0$ with each point forming a component, and die when two components merge as $\epsilon$ increases.” This correction would more faithfully reflect the standard definition of $H_0$ in persistent homology.
+
+This is solely a typographical error in the Methods section. The implementation of the computational code is correct, and this typo has no impact on the conclusions or the scientific validity of the article. In fact, we employed the Ripser package to perform the computation. This clarification is provided for completeness.
+
+
 Reference
 -----------------
 ```bibtex
