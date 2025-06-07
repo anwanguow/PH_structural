@@ -217,9 +217,7 @@ There is a minor typo in the left column below Fig.1 on page 4, where it is stat
 
 According to the standard definition in persistent homology, at $\epsilon = 0$, each point in the point cloud forms an individual connected component ($H_0$ topological feature), so all $H_0$ features birth occur at ϵ = 0. As $\epsilon$ increases, when two points are first connected by an edge, their respective connected components merge, which corresponds to the “death” of a $H_0$ topological feature. When $\epsilon$ is sufficiently large, all points are connected into a single global component, which never dies. This would more accurately reflect the standard definition of $H_0$ in persistent homology.
 
-Accordingly, the statement in the manuscript should be revised as follow: “$H_0$ topological features are born at $\epsilon=0$ with each point forming a component, and die when two components merge as $\epsilon$ increases.” This correction would more faithfully reflect the standard definition of $H_0$ in persistent homology.
-
-This is solely a typographical error. In fact, we employed the Ripser package to perform the computation. The implementation of the computational code is correct, and this typo has no impact on the conclusions or the scientific validity of the article. This clarification is provided for completeness.
+Accordingly, the statement in the manuscript should be revised as follow: “$H_0$ topological features are born at $\epsilon=0$ with each point forming a independent component.” This typo has no impact on the conclusions or the scientific validity of the article.
 
 
 Reference
