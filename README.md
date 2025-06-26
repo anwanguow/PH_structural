@@ -213,9 +213,9 @@ The arXiv preprint edition is available at https://arxiv.org/abs/2411.14390.
 
 Correction/Errata
 -----------------
-There is a minor typo in the left column below Fig.1 on page 4, where it is stated: “For example, a new connected component ($H_0$) is born when points first merge as $\epsilon$ increases.”
+There is a minor typo in the left column below Fig.1 on page 4, where it is stated: “For example, a new connected component ($H_0$) is born when points first merge as $\epsilon$ increases”.
 
-This sentence should be changed to "For example, a new connected component ($H_0$) is born when a point first appears as $\epsilon$" increases.
+This sentence should be changed to "For example, a new connected component ($H_0$) is born when a point first appears as $\epsilon$ increases".
 
 This typo has no impact on the scientific validity or conclusions of this article.
 
